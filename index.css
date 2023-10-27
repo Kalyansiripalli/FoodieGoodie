@@ -1,0 +1,341 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px; 
+}
+    
+.PageLayout{
+    width: 100%;
+}
+.body{
+    width: 100%;
+}
+
+.header{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 5px 5px;
+    background-color: #a0d2eb ;
+    width: 100%;
+    height: 10vh;
+}
+
+.logodiv{
+    display: flex;
+    height: 100%;
+}
+
+.logo{
+    height: 80%;
+    width:100%;
+    margin-top:10%;
+}
+
+
+.ul{
+    list-style: none;
+    display:flex;
+    justify-content:space-between;
+    
+}
+.li{
+   padding-left:2vw;
+}
+
+.loginlogout {
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: auto;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 10vw;
+  }
+  
+  .loginlogout:focus:not(:focus-visible):not(.focus-visible) {
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .loginlogout:hover {
+    background-color: #2c974b;
+  }
+  
+  .loginlogout:focus {
+    box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+    outline: none;
+  }
+  
+  .loginlogout:disabled {
+    background-color: #94d3a2;
+    border-color: rgba(27, 31, 35, .1);
+    color: rgba(255, 255, 255, .8);
+    cursor: default;
+  }
+  
+  .loginlogout:active {
+    background-color: #298e46;
+    box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  }
+
+.searchbardiv{
+    
+    display: flex;
+    justify-content:center;
+    height: 7vh;
+}
+
+.searcharea {
+    /* margin-right: 5vw; */
+    width: 30vw;
+    height: 5vh;
+    border: 1px solid #A7B6BE;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+   
+}
+
+.resturant-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+}
+
+.card{
+    width: 200px;
+    padding: 1vw;
+    margin: 1vw;
+    height:fit-content;
+    border-radius:20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    background-color: white;
+    
+}
+.card:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    cursor: pointer;
+}
+
+.card-image{
+    width: 100%;
+    height: 50%;
+    border-radius: 10px;
+}
+.title{
+    color: #434c55;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.address{
+    color:#787878;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+.cusines{
+    color: #434c55;
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.info{
+    width: 80%;
+    padding-left: 1.5%;
+}
+
+.shimmerdiv{
+    width: 170px;
+    height:270px;
+    margin: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    border-radius:10px;
+    background-color: lightgrey;
+}
+.shimmer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ratingImg{
+    height: 15px;
+    width: 15px;
+}
+
+.detailedview{
+    margin: 20px;
+    padding: 20px;
+    padding-left: 60px;
+    background-color: #e5eaf5;
+    border-radius: 5px;
+}
+
+.AboutUsdiv{
+    padding: 4vw;
+}
+
+.ContactUs{
+    padding: 4vw;
+}
+.category{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.footer{
+    /* border: 40px; */
+    display:flex ;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #a0d2eb;
+}
+.dishname{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+
+
+
+
+
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+
+}
+
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.vegonlydiv {
+    display: flex;
+    width: 90%;
+    justify-content: flex-end; /* Align content to the right */
+    align-items: center; /* Vertically center the content */
+    /* Add any other styles you want for the div here */
+  }
+  
+  /* Optional: Adjust the spacing or padding as needed */
+  .vegonlydiv label {
+    margin-left: 10px; /* Add spacing between the checkbox and label */
+  }
+  
+
+/* toggle*/
+input[type=checkbox] {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+  label {
+    cursor: pointer;
+    text-indent: -9999px;
+    width: 60px; /* Decreased width to make it even smaller */
+    height: 30px; /* Decreased height to make it even smaller */
+    background: grey;
+    display: block;
+    border-radius: 100px;
+    position: relative;
+  }
+  
+  label:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20px; /* Decreased width to make it even smaller */
+    height: 20px; /* Decreased height to make it even smaller */
+    background: #fff;
+    border-radius: 50px; /* Adjusted border-radius to make it even smaller */
+    transition: 0.3s;
+  }
+  
+  input:checked + label {
+    background: #bada55;
+  }
+  
+  input:checked + label:after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  label:active:after {
+    width: 30px; /* Adjusted width for the active state */
+  }
+  
